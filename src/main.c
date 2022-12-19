@@ -14,8 +14,8 @@ int main (int argc, char** argv) {
 
     readFromFiles(argv[1], argv[2]);
 
-    for (int i = 0; i < dictionaryLength; i++) {
-        printf("%d. %s \n", i, dictionary[i]);
+    for (int i = 0; i < passwordToBreakLength; i++) {
+        printf("%d. %s \n", i, passwordsToBreak[i]);
     }
 
     return 0;
